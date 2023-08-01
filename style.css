@@ -2,50 +2,121 @@
     margin: 0;
     padding: 0;
 }
-.bg{
-    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/Girl\ In\ The\ Hood\,\ s\ m0ntm0.png');
+body, .btn {
+    font-family:'Roboto Slab', serif;
+    font-style: italic;
+    
+  }
+  .cf{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: linear-gradient( rgba(90, 12, 12, 0.5), rgba(165, 37, 37, 0.5)) !important;
+  }
+  
+  .cc {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* The rest of your CSS styles here */
+  
+
+/*NAV */
+.navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.473);
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  /* CONTENU */
+.title{
+    font-size: 50px !important;
+    letter-spacing: 20px;
+  }
+  
+.btn:hover{
+    transform: scale(0.9);
+    }
+
+
+@media (max-width:770px){
+   .colonne{
+    margin-bottom: 5%;
+   }
+   .ptext{
+    width: 100%;
+}
+}
+@media (max-width:580px){
+    .cf{
+        height: 110vh;
+      }
+}
+@media (max-width:520px){
+    .cf{
+        height: 130vh;
+      }
+}
+
+/* CARTE1 */
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-item {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .image-container:hover .image-item {
+    transform: scale(0.9); /* Effet bounce-in sur l'image lors du survol */
+  }
+  
+  .border-div {
+    position: absolute;
+    top: 50%; /* Centrer verticalement */
+    left: 50%; /* Centrer horizontalement */
+    transform: translate(-50%, -50%) scale(0.9); /* Ajuster le centrage */
+    width: calc(100% - 100px); /* Largeur ajustée pour la distance de 50px des deux côtés */
+    height: calc(100% - 100px); /* Hauteur ajustée pour la distance de 50px des deux côtés */
+    border: 1px solid rgba(255, 255, 255, 0.562); /* Couleur et style de bordure souhaités */
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in, transform 0.3s ease-in; }
+  
+  .image-container:hover .border-div {
+    opacity: 1; /* Effet bounce-out sur la bordure lors du survol */
+    background: linear-gradient(rgba(155, 220, 224, 0.096),rgba(54, 56, 58, 0.253));
+  }
+
+  /* FOOTER */
+  #whatsApp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  .liensScale:hover{
+    color: white !important;
+    transform: scale(0.9);
+  }
+
+  /* ABOUT */
+  .bg1{
+    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/eduardo-pastor-3oejsU5OQVk-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.titre1{
-    font-size: 70px;
-}
-.trait{
-    height: 10px !important;
-}
-
-.img2{
-    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/Sharaya\ J\ -\ Interview\ Magazine.jfif');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-}
-.img1{
-    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/téléchargement.jfif');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-}
-.titre2{
-font-size: 70px;
-}
-@media (max-width:768px){
-   .img1{
-    margin-bottom: 15px;
-   }
-   .trait{
-    margin-bottom: 50px;
-   }
-   .titre2{
-    font-size: 0px;
-   }
-}
-@media (max-width:999px){
-    .titre2, .titre1{
-     font-size: 50px;
-    }
- }
+    background-attachment: fixed;
+} 

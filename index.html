@@ -1,218 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>HALWILL</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>EYYA</title>
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />    
-    <link 
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-</head>
-<body> 
-    <div class="container-fluid bg">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="text-white p-5">
-                    <h1 class="titre fw-bolder mt-5">HALWILL <br> MUSIC </h1>
-                    <p class="mt-5 w-75">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Assumenda delectus beatae provident rerum nesciunt?
-                        Deleniti cupiditate vel libero atque.
-                        aperiam quasi dicta 
-                    </p>
-                </div>
-            </div>
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <head>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Passion+One&family=REM:ital,wght@1,300&family=Roboto+Slab&display=swap" />
+    </head>
+  </head>
+  <body>
+    <div class="container-fluid cf" >
+        <video autoplay muted loop id="bg-video">
+            <source src="./medias/pexels-pavel-danilyuk-6372008 (1080p).mp4" type="video/mp4">
+            <source src="./medias/pexels-pavel-danilyuk-6372008 (1080p).WebM" type="video/WebM">
+            <source src="./medias/pexels-pavel-danilyuk-6372008 (1080p).Ogg" type="video/Ogg">
+          </video>
+      <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fs-3" href="#accueil"> LOGO </a>
+          <button
+            class="navbar-toggler shadow-none border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler border-0 text-white"
+              ><i class="fas fa-bars"></i
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./contenu/about.html"
+                  >A Propos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./contenu/produits.html"
+                  >Produits</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./contenu/contacts.html"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="container-fluid text-white p-5">
-            <div class="row h-25 bg-white pt-0">*</div>
-            <div class="row fw-bolder mt-5">
-                <div class="col-md-2">
-                    <h5><a href="#" class="text-white text-decoration-none">+221778720829</a></h5>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-2">
-                    <h5><a href="#" class="text-white text-decoration-none">email@example.com</a></h5>
-                </div>
-                <div class="col-md-5"></div>
-                <div class="col-md-2">
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram-square ms-2"></i>
-                    <i class="fab fa-twitter-square ms-2"></i>
-                    <i class="fab fa-spotify ms-2"></i>
-                </div>
-            </div>
-        </div>
-    </div>
+      </nav>
 
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-4">
-                <h1 class="titre1 text-black fw-bolder">NEW <br> MUSIC <br> VIDEO </h1>
-            </div>
-            <div class="col-md-8 ">
-                <video controls src="./medias/Warrior.Nun.S01E02.FRENCH.WEBRIP.x264-ShowFr.mkv" width="100%" height="100%"></video>
-            </div>
-        </div>
-    </div>
-    <div class="container mt-5">
-       <div class="row">
-            <div class="col-md-3">
-                <div class="row mt-5"></div>
-                <div class="row mt-5"></div>
-                <div class="row mt-5"></div>
-                <div class="row mt-5"></div>
-                <div class="row trait bg-black text-black w-25"></div>
-            </div>
-            <div class="col-md-6">
-                <div class="text-dark p-5">
-                    <h2 class="fw-bolder">Voice Of Present </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Assumenda delectus beatae provident rerum nesciunt?
-                        Deleniti cupiditate vel libero atque.Deleniti cupiditate
-                        aperiam quasi dicta Deleniti cupiditate
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="text-dark p-5">
-                    <h1 class="mt-5"></h1>
-                    <p>
-                        Director: Jeremy Martin <br>
-                        Music: Halwill <br>
-                        Outfits: Yoko Tayana <br>
-                        2023
-                    </p>
-                </div>
-            </div>
-       </div>
-    </div>
-
-    <div class="container-fluid bg-black bg1 text-white p-5">
-        <div class="row justify-content-around custom-line">
-            <div class="col-md-3">
-                <h1 class="titre2 fw-bolder">DISCO <br> GRAPHY </h1>
-            </div>
-            <div class="col-md-4 img1 d-flex justify-content-center align-items-center p-5 ">
-                <h1>HALWILL</h1>
-            </div>
-            <div class="col-md-4 img2 d-flex justify-content-center align-items-center">
-                <h1>HALWILL</h1>
-            </div>
-        </div>
-
-        <div class="container mt-5">
-            <div class="row">
-                 <div class="col-md-3">
-                     <div class="row mt-5"></div>
-                     <div class="row mt-5"></div>
-                     <div class="row mt-5"></div>
-                     <div class="row mt-5"></div>
-                     <div class="row trait bg-white text-white w-25"></div>
-                 </div>
-                 <div class="col-md-5">
-                     <div class="text-white p-5">
-                         <h2 class="fw-bolder">Social Chameleon</h2>
-                         <p>Exploring themes of loss and grief. <br> Sony Music, 2020.</p>                         
-                         <i class="fa-brands fa-bandcamp"></i>
-                         <i class="fab fa-spotify ms-2"></i>
-                         <i class="fa-brands fa-itunes ms-2"></i>
-                     </div>
-                 </div>
-                 <div class="col-md-4">
-                    <div class="text-white p-5">
-                        <h2 class="fw-bolder">Tunnel Vision</h2>
-                        <p>Halwill debut album. <br> Sony Music, 2018.</p>                         
-                        <i class="fa-brands fa-bandcamp"></i>
-                        <i class="fab fa-spotify ms-2"></i>
-                        <i class="fa-brands fa-itunes ms-2"></i>
-                    </div>
-                 </div>
-            </div>
-         </div>
-    </div>
-
-    <div class="container mt-5">
-        <div class="row text-black">
-            <div class="col-md-4">
-                <h1 class="titre2 fw-bolder">GET IN <br> TOUCH </h1>
-                    <div class="row mt-5"></div>
-                    <div class="row mt-5"></div>
-                    <div class="row mt-5"></div>
-                    <div class="row mt-5"></div>
-                    <div class="row mt-4"></div>
-                    <div class="row trait bg-black text-black w-25"></div>
-            </div>
+      <div
+        class="container mt-5 p-5 d-flex flex-column align-items-center text-center cc">
+        <div class="text-white fw-bold p-5">
+          <h2 class="title">EYYA</h2>
+          <div class="row">
+            <div class="col-md-2"></div>
             <div class="col-md-8">
-                <form>
-                    <div class="mb-3">
-                        <label for="exampleInputName1" class="form-label">NAME</label>
-                        <input type="text" class="form-control bg-light rounded-0 border-0 shadow" id="exampleInputName1" placeholder="Your name">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputName2" class="form-label">Last Name</label>
-                        <input type="text" class="form-control bg-light rounded-0 border-0 shadow" id="exampleInputName2" placeholder="Your last name">
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Your Email*</label>
-                      <input type="email" class="form-control bg-light rounded-0 border-0 shadow" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email address">
-                    </div>
-                    <div class="mb-3">
-                        <label for="Textarea">Message*</label>
-                        <textarea class="form-control bg-light rounded-0 border-0 shadow" placeholder="Enter your message" id="Textarea"></textarea>                        
-                    </div>
-                    <button type="submit" class="btn text-white bg-black rounded-0 border-0 w-25 shadow mt-3">Submit</button>
-                  </form>
+              <p>
+                "Bienvenue sur EYYA, votre nouvelle boutique en ligne. Venez
+                découvrir notre univers de friperie et laissez-vous séduire par
+                nos trésors pré-aimés, choisis avec passion pour leur qualité et
+                leur originalité. Que vous recherchiez un look décontracté pour
+                le quotidien ou une tenue chic pour une occasion spéciale, nous
+                avons ce qu'il vous faut."
+              </p>
             </div>
+            <div class="col-md-2"></div>
+          </div>
+          <a href="#produits" type="button" class="btn btn-outline-light">
+            EXPLORER
+          </a>
         </div>
+      </div>
     </div>
 
-    <div class="container-fluid text-black p-5 ">
-        <div class="row fw-bolder mt-5 ">
-            <div class="col-md-3">
-                <h5><a href="#" class="text-black text-decoration-none">HALWILL MUSIC (C) 2023</a></h5>
-            </div>
-            <div class="col-md-3">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-instagram-square ms-2"></i>
-                <i class="fab fa-twitter-square ms-2"></i>
-                <i class="fab fa-spotify ms-2"></i>   
-            </div>
-            <div class="col-md-3">
-                <h5><a href="#" class="text-black text-decoration-none">+221778720829</a></h5>
-            </div>
-            <div class="col-md-3">
-                <h5><a href="#" class="text-black text-decoration-none">email@example.com</a></h5>
-            </div>
+    <section id="section2">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 className="">CHEZ EYYA,</h1>
+            <p>
+              Le style ne depend pas du prix, mais de la facon dont vous le
+              portez. Explorez notre collection inspirante et trouvez les pièces
+              qui vous permettront de rayonner où que vous alliez.
+            </p>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6 text-end">
+            <h1>Aperçu des prix</h1>
+          </div>
+        </div>
+        <div class="row animation">
+          <div class="col-md-4 colonne">
+            <div>
+              <div class="image-container">
+                <img
+                  src="../medias/karen-willis-holmes-McLuTG2t4UQ-unsplash.jpg"
+                  alt="Image 1"
+                  class="image-item shadow rounded-3"
+                  style="height: 80%" />
+                <div
+                  class="border-div p-5 d-flex justify-content-center align-items-center">
+                  <h1 class="text-white text-center">3000F</h1>
+                </div>
+              </div>
+            </div>
+            <div class="mt-4">
+              <div class="image-container">
+                <img
+                  src="../medias/9b687d0b3cb30ee50bbefa79cb34f54b055a6d80_clv6597_4.jpg"
+                  alt="Image 3"
+                  class="image-item shadow rounded-3"
+                  style="height: 20%" />
+                <div
+                  class="border-div p-5 d-flex justify-content-center align-items-center">
+                  <h1 class="text-white text-center">3000F</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 colonne">
+            <div>
+              <div class="image-container">
+                <img
+                  src="../medias/94b4ad1032b27fb1ef24ab9825ef39940a04009b_original.jpeg"
+                  alt="Image 2"
+                  class="image-item shadow rounded-3"
+                  style="height: 100%" />
+                <div
+                  class="border-div p-5 d-flex justify-content-center align-items-center">
+                  <h1 class="text-white text-center">2000F</h1>
+                </div>
+              </div>
+            </div>
+            <div class="mt-4">
+              <div class="image-container">
+                <img
+                  src="../medias/94b4ad1032b27fb1ef24ab9825ef39940a04009b_original.jpeg"
+                  alt="Image 2"
+                  class="image-item shadow rounded-3"
+                  style="height: 100%" />
+                <div
+                  class="border-div p-5 d-flex justify-content-center align-items-center">
+                  <h1 class="text-white text-center">2000F</h1>
+                </div>
+              </div>
+            </div>
+            <div class="mt-4 text-center">
+              <p>
+                La qualité est notre priorité. Nous nous engageons à ne proposer
+                que des vêtements d'occasion de haute qualité. Nous vous offrons
+                une sélection minutieusement choisie de vêtements pour hommes et
+                femmes qui couvre un large éventail de styles et de saisons.
+                Vous trouverez certainement ce que vous recherchez.
+              </p>
+              <button type="button" class="btn btn-outline-dark">
+                Plus d'articles
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4 colonne">
+            <div>
+              <div class="image-container">
+                <img
+                  src="../medias/karen-willis-holmes-McLuTG2t4UQ-unsplash.jpg"
+                  alt="Image 1"
+                  class="image-item shadow rounded-3"
+                  style="height: 20%" />
+                <div
+                  class="border-div p-5 d-flex justify-content-center align-items-center">
+                  <h1 class="text-white text-center">1000F</h1>
+                </div>
+              </div>
+            </div>
+            <div class="mt-4">
+              <div class="image-container">
+                <img
+                  src="../medias/9b687d0b3cb30ee50bbefa79cb34f54b055a6d80_clv6597_4.jpg"
+                  alt="Image 3"
+                  class="image-item shadow rounded-3"
+                  style="height: 80%" />
+                <div
+                  class="border-div p-5 d-flex justify-content-center align-items-center">
+                  <h1 class="text-white text-center">1000F</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-fluid bg-black text-center p-2 mt-5">
+      <a href="#" class="text-decoration-none text-secondary">
+        <i class="far fa-copyright"></i> 2023 Fait par Mama GDG
+      </a>
     </div>
+    <a
+      id="whatsApp"
+      href="#"
+      onclick="handleWhatsAppClick()"
+      class="btn btn-outline-success">
+      <i class="fab fa-whatsapp"></i>
+    </a>
 
+    <!-- WHATSAPP -->
+    <script>
+      function handleWhatsAppClick() {
+        const defaultText = encodeURIComponent("Bonjour......");
+        const phoneNumber = "776700066";
 
+        window.open(
+          `https://wa.me/${phoneNumber}?text=${defaultText}`,
+          "_blank"
+        );
+      }
 
+      // NAVBAR
+      window.addEventListener("scroll", function () {
+        const navbar = document.getElementById("navbar");
 
-    
-    <script src="https://kit.fontawesome.com/712d58e84c.js" crossorigin="anonymous"></script>
+        if (window.scrollY > 0) {
+          navbar.classList.add("navbar-scrolled");
+        } else {
+          navbar.classList.remove("navbar-scrolled");
+        }
+      });
+    </script>
     <script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-    crossorigin="anonymous"
-  ></script>
-</body>
+      src="https://kit.fontawesome.com/712d58e84c.js"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
