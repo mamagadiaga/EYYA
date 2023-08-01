@@ -1,0 +1,51 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/Girl\ In\ The\ Hood\,\ s\ m0ntm0.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titre1{
+    font-size: 70px;
+}
+.trait{
+    height: 10px !important;
+}
+
+.img2{
+    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/Sharaya\ J\ -\ Interview\ Magazine.jfif');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.img1{
+    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/téléchargement.jfif');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.titre2{
+font-size: 70px;
+}
+@media (max-width:768px){
+   .img1{
+    margin-bottom: 15px;
+   }
+   .trait{
+    margin-bottom: 50px;
+   }
+   .titre2{
+    font-size: 0px;
+   }
+}
+@media (max-width:999px){
+    .titre2, .titre1{
+     font-size: 50px;
+    }
+ }
