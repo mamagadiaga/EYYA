@@ -6,30 +6,18 @@ body, .btn {
     font-family:'Roboto Slab', serif;
     font-style: italic;
     
-  }
-  .cf{
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  #bg-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background: linear-gradient( rgba(90, 12, 12, 0.5), rgba(165, 37, 37, 0.5)) !important;
-  }
-  
+  } 
+   .bg1{
+    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/eduardo-pastor-3oejsU5OQVk-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
   .cc {
-    position: relative;
-    z-index: 1;
+    padding: 5px;
   }
-  
-  /* The rest of your CSS styles here */
-  
+
 
 /*NAV */
 .navbar-scrolled {
@@ -57,14 +45,9 @@ body, .btn {
     width: 100%;
 }
 }
-@media (max-width:580px){
-    .cf{
-        height: 110vh;
-      }
-}
-@media (max-width:520px){
-    .cf{
-        height: 130vh;
+@media (max-width:470px){
+    .pnone, .cc{
+        padding: 0 !important;
       }
 }
 
@@ -113,7 +96,7 @@ body, .btn {
   }
 
   /* ABOUT */
-  .bg1{
+  .bg2{
     background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/eduardo-pastor-3oejsU5OQVk-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
