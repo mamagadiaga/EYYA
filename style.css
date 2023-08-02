@@ -8,16 +8,13 @@ body, .btn {
     
   } 
    .bg1{
-    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/eduardo-pastor-3oejsU5OQVk-unsplash.jpg');
+    height: 600px;
+    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/the-nix-company-4Hmj9gkyM6c-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 } 
-  .cc {
-    padding: 5px;
-  }
-
 
 /*NAV */
 .navbar-scrolled {
@@ -28,8 +25,11 @@ body, .btn {
   
   /* CONTENU */
 .title{
-    font-size: 50px !important;
+    font-size: 70px !important;
     letter-spacing: 20px;
+  }
+.title2{
+    letter-spacing: 10px;
   }
   
 .btn:hover{
@@ -38,6 +38,14 @@ body, .btn {
 
 
 @media (max-width:770px){
+    .title{
+        font-size: 45px !important;
+        letter-spacing: 5px;
+      }
+    .title2{
+        letter-spacing: 3px;
+      }
+      
    .colonne{
     margin-bottom: 5%;
    }
@@ -97,12 +105,14 @@ body, .btn {
 
   /* ABOUT */
   .bg2{
+    height: 600px;
     background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/eduardo-pastor-3oejsU5OQVk-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 } 
+ 
 .image {
     border-radius: 5px;
     width: 100%;
@@ -125,6 +135,15 @@ body, .btn {
     transform: scale(0.9);
   }
 /* PRODUITS */
+.bg3{
+    height: 600px;
+    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/harry-cunningham-7qCeFo19r24-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
 .profile-card{
     position:relative;
     overflow: hidden;
@@ -265,3 +284,12 @@ body, .btn {
       width: 100%;
      }
   }
+/* CONTACT */
+.bg4{
+    height: 600px;
+    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/haryo-setyadi-acn5ERAeSb4-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

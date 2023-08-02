@@ -27,7 +27,7 @@
     </head>
   </head>
   <body>
-    <div class="container-fluid bg1">
+    <div class="container-fluid bg2">
       <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
         <div class="container-fluid">
           <a class="navbar-brand text-white fs-3" href="../index.html">
@@ -51,9 +51,7 @@
                 <a class="nav-link text-white" href="../index.html">Accueil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="./about.html"
-                  >A Propos</a
-                >
+                <a class="nav-link text-white" href="./about.html">A Propos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="./produits.html"
@@ -70,27 +68,29 @@
         </div>
       </nav>
 
+   
       <div
-        class="container p-5 d-flex flex-column align-items-center text-center cc">
-        <div class="text-white p-5 mb-5">
-          <h1 class=" mt-5">A PROPOS DE NOUS</h1>
-          </div>
-        </div>
+      class="container p-5 d-flex justify-content-center align-items-center"
+      style="min-height: 90vh">
+      <div class="text-white text-center">
+          <h1 class="title2 mt-5">"Plongez dans notre univers."</h1>
+        <h2 class="title fw-light"></h2>
       </div>
+    </div>
     </div>
 
     <section class="container mt-5">
       <div class="row">
         <div
           class="col-md-6 d-flex justify-content-center align-items-center flex-column">
-          <h1 className="">EYYA</h1>
+          <h1 className="">ORIGINE</h1>
           <p>
-            Tire son nom du mot wolof « Yaye », qui signifie « mère ».
-            Ce choix symbolise l’accessibilité et la disponibilité de
-            notre boutique en ligne, s’apparentant à la bienveillance et à
-            l’amour inconditionnel que l’on associe généralement à une mère.
-            Elle souhaite être présente pour un large public, avec une offre de qualité et
-            abordable. Ainsi, chacun peut se sentir à l’aise et
+            EYYA tire son nom du mot wolof « Yaye », qui signifie « mère ». Ce
+            choix symbolise l’accessibilité et la disponibilité de notre
+            boutique en ligne, s’apparentant à la bienveillance et à l’amour
+            inconditionnel que l’on associe généralement à une mère. Elle
+            souhaite être présente pour un large public, avec une offre de
+            qualité et abordable. Ainsi, chacun peut se sentir à l’aise et
             élégant, sans avoir à se soucier de son budget
           </p>
         </div>
@@ -110,12 +110,12 @@
         </div>
         <div
           class="col-md-6 d-flex justify-content-center align-items-center flex-column">
-          <h1 className="">NOTRE</h1>
+          <h1 className="">MISSION</h1>
           <p>
-            engagement est de rendre la mode accessible à tous, en
+            Nous engagement est de rendre la mode accessible à tous, en
             proposant une variété de vêtements tendance et modernes, incluant
             notamment une sélection de friperie soigneusement choisie. Notre
-            mission est de permettre à chacun d’exprimer son style personnel,
+            objectif est de permettre à chacun d’exprimer son style personnel,
             tout en offrant une expérience de shopping enrichissante qui reflète
             votre individualité, tout en vous procurant un sentiment
             d’appartenance à une communauté bienveillante et aimante.
@@ -126,52 +126,51 @@
       </div>
     </section>
     <div class="container-fluid bg-black text-center p-2 mt-5">
-        <a href="#" class="text-decoration-none text-secondary">
-          <i class="far fa-copyright"></i> 2023 Fait par Mama GDG
-        </a>
-      </div>
-      <a
-        id="whatsApp"
-        href="#"
-        onclick="handleWhatsAppClick()"
-        class="btn btn-success">
-        <i class="fab fa-whatsapp"></i>
+      <a href="#" class="text-decoration-none text-secondary">
+        <i class="far fa-copyright"></i> 2023 Fait par Mama GDG
       </a>
-  
-      <!-- WHATSAPP -->
-      <script>
-        function handleWhatsAppClick() {
-          const defaultText = encodeURIComponent("Bonjour......");
-          const phoneNumber = "776700066";
-  
-          window.open(
-            `https://wa.me/${phoneNumber}?text=${defaultText}`,
-            "_blank"
-          );
+    </div>
+    <a
+      id="whatsApp"
+      href="#"
+      onclick="handleWhatsAppClick()"
+      class="btn btn-success">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- WHATSAPP -->
+    <script>
+      function handleWhatsAppClick() {
+        const defaultText = encodeURIComponent("Bonjour......");
+        const phoneNumber = "776700066";
+
+        window.open(
+          `https://wa.me/${phoneNumber}?text=${defaultText}`,
+          "_blank"
+        );
+      }
+
+      // NAVBAR
+      window.addEventListener("scroll", function () {
+        const navbar = document.getElementById("navbar");
+
+        if (window.scrollY > 0) {
+          navbar.classList.add("navbar-scrolled");
+        } else {
+          navbar.classList.remove("navbar-scrolled");
         }
-  
-        // NAVBAR
-        window.addEventListener("scroll", function () {
-          const navbar = document.getElementById("navbar");
-  
-          if (window.scrollY > 0) {
-            navbar.classList.add("navbar-scrolled");
-          } else {
-            navbar.classList.remove("navbar-scrolled");
-          }
-        });
-      </script>
-      <script
-        src="https://kit.fontawesome.com/712d58e84c.js"
-        crossorigin="anonymous"></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-        crossorigin="anonymous"></script>
-    </body>
-  </html>
-  
+      });
+    </script>
+    <script
+      src="https://kit.fontawesome.com/712d58e84c.js"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
