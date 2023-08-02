@@ -21,8 +21,13 @@ body, .btn {
     background-color: rgba(0, 0, 0, 0.473);
     transition: background-color 0.3s ease;
   }
-  
-  
+  .navbar-nav .active {
+    border-bottom: 1px solid #fff;
+  }
+  /* .navbar-nav .active {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+  } */
   /* CONTENU */
 .title{
     font-size: 70px !important;
