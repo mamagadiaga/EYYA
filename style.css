@@ -7,7 +7,7 @@ body, .btn {
     font-style: italic;
     
   } 
-   .bg1{
+   .bg-bg1{
     height: 600px;
     background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/the-nix-company-4Hmj9gkyM6c-unsplash.jpg');
     background-position: center;
@@ -104,7 +104,7 @@ body, .btn {
   }
 
   /* ABOUT */
-  .bg2{
+  .bg-bg2{
     height: 600px;
     background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/eduardo-pastor-3oejsU5OQVk-unsplash.jpg');
     background-position: center;
@@ -135,7 +135,7 @@ body, .btn {
     transform: scale(0.9);
   }
 /* PRODUITS */
-.bg3{
+.bg-bg3{
     height: 600px;
     background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/harry-cunningham-7qCeFo19r24-unsplash.jpg');
     background-position: center;
@@ -285,7 +285,7 @@ body, .btn {
      }
   }
 /* CONTACT */
-.bg4{
+.bg-bg4{
     height: 600px;
     background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/haryo-setyadi-acn5ERAeSb4-unsplash.jpg');
     background-position: center;
@@ -293,3 +293,9 @@ body, .btn {
     background-size: cover;
     background-attachment: fixed;
 }
+
+@media (max-width: 775px) {
+    .bg{
+      height: 400px;
+     }
+    }
