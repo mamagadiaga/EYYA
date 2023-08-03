@@ -291,7 +291,7 @@ body, .btn {
   }
 /* CONTACT */
 .bg{
-    height: 600px;
+    height: auto;
     background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/haryo-setyadi-acn5ERAeSb4-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
