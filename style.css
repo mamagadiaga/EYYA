@@ -7,14 +7,14 @@ body, .btn {
     font-style: italic;
     
   } 
-   /* .bg-bg1{
+   .bg-bg1{
     height: 600px;
     background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/the-nix-company-4Hmj9gkyM6c-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-}  */
+    /* background-attachment: fixed; */
+} 
 
 /*NAV */
 .navbar-scrolled {
@@ -109,14 +109,14 @@ body, .btn {
   }
 
   /* ABOUT */
-  /* .bg-bg2{
+  .bg-bg2{
     height: 600px;
     background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/eduardo-pastor-3oejsU5OQVk-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-}  */
+    /* background-attachment: fixed; */
+} 
  
 .image {
     border-radius: 5px;
@@ -140,14 +140,14 @@ body, .btn {
     transform: scale(0.9);
   }
 /* PRODUITS */
-/* .bg-bg3{
+.bg-bg3{
     height: 600px;
     background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/harry-cunningham-7qCeFo19r24-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-}  */
+    /* background-attachment: fixed; */
+} 
 
 .profile-card{
     position:relative;
@@ -290,8 +290,8 @@ body, .btn {
      }
   }
 /* CONTACT */
-.bg{
-    height: 700px;
+.bg-bg4{
+    height: 600px;
     background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/haryo-setyadi-acn5ERAeSb4-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -301,6 +301,6 @@ body, .btn {
 
 @media (max-width: 775px) {
     .bg{
-      height: 600px;
+      height: 400px;
      }
     }
