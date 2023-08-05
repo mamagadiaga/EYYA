@@ -71,6 +71,7 @@ body, .btn {
 @media (max-width:415px){
     .bg-bg1{
         height: 750px;
+        background-attachment: scroll;
       }
 }
 
