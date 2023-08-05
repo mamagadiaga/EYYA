@@ -13,7 +13,7 @@ body, .btn {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 } 
 
 /*NAV */
@@ -24,10 +24,12 @@ body, .btn {
   .navbar-nav .active {
     border-bottom: 1px solid #fff;
   }
+
   /* .navbar-nav .active {
     border-bottom: 3px solid #fff;
     padding-bottom: 5px;
   } */
+
   /* CONTENU */
 .title{
     font-size: 70px !important;
@@ -42,13 +44,16 @@ body, .btn {
     }
 
 
-@media (max-width:770px){
+@media (max-width:770px){             
     .title{
         font-size: 45px !important;
         letter-spacing: 5px;
       }
     .title2{
         letter-spacing: 3px;
+      }
+      .bg{
+        background-attachment: scroll;
       }
       
    .colonne{
@@ -61,6 +66,11 @@ body, .btn {
 @media (max-width:470px){
     .pnone, .cc{
         padding: 0 !important;
+      }
+}
+@media (max-width:415px){
+    .bg-bg1{
+        height: 750px;
       }
 }
 
@@ -115,7 +125,7 @@ body, .btn {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 } 
  
 .image {
@@ -146,9 +156,9 @@ body, .btn {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 } 
-
+     
 .profile-card{
     position:relative;
     overflow: hidden;
@@ -158,6 +168,7 @@ body, .btn {
 {
     transform: scale(1.2);
 }
+
 .profile-card .profile-img img{
     width:100%;
     height:auto;
@@ -211,9 +222,10 @@ body, .btn {
 .profile-card .profile-content:hover{
     background-color: rgba(126, 120, 122, 0.5);
 }
+
 .profile-card .profile-content .title{
     font-size:24px;
-    color: #fff;;
+    color: #fff;
     opacity:0;
     letter-spacing:2px;
     text-transform:uppercase;
@@ -263,7 +275,6 @@ body, .btn {
     background-color: #000;
 }
 /* TABS */
-
 .tab{
     background-color: transparent !important;
     width: 100px;
@@ -296,7 +307,7 @@ body, .btn {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 @media (max-width: 775px) {
