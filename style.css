@@ -278,6 +278,11 @@ height: 300px;
     border-radius:5px;
     background-color: #000;
 }
+@media (max-width: 578px) {
+  .pimages{
+    height: 450px;
+    }
+  }
 /* TABS */
 .tab{
     background-color: transparent !important;
