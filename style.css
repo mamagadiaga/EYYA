@@ -24,11 +24,11 @@ body, .btn {
   .navbar-nav .active {
     border-bottom: 1px solid #fff;
   }
-
-  /* .navbar-nav .active {
-    border-bottom: 3px solid #fff;
-    padding-bottom: 5px;
-  } */
+  
+  .itemActive .active {
+    background-color: black !important;
+    color: white !important;
+  }
 
   /* CONTENU */
 .title{
