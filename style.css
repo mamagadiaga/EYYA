@@ -18,7 +18,7 @@ body, .btn {
 
 /*NAV */
 .logo{
-  width: 100px;
+  width: 150px;
 }
 .navbar-scrolled {
     background-color: rgba(0, 0, 0, 0.473);
@@ -261,7 +261,7 @@ height: 300px;
 
 .profile-card .profile-content .title{
     font-size:20px !important;
-    color: #E8E131;
+    color: #fff;
     opacity:0;
     letter-spacing:2px;
     text-transform:uppercase;
