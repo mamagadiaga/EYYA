@@ -165,7 +165,7 @@ body, .btn {
   /* ABOUT */
   .bg-bg2{
     height: 650px;
-    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/eduardo-pastor-sWcDEaemw14-unsplash.jpg');
+    background-image: linear-gradient(rgba(56, 55, 55, 0.884),rgba(56, 55, 55, 0.5)),url('./medias/eduardo-pastor-sWcDEaemw14-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,7 +196,7 @@ body, .btn {
 /* PRODUITS */
 .bg-bg3{
     height: 650px;
-    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/harry-cunningham-7qCeFo19r24-unsplash.jpg');
+    background-image: linear-gradient(rgba(56, 55, 55, 0.884),rgba(56, 55, 55, 0.5)),url('./medias/harry-cunningham-7qCeFo19r24-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -355,7 +355,7 @@ height: 300px;
 /* CONTACT */
 .bg-bg4{
     height: 650px;
-    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/the-nix-company-4Hmj9gkyM6c-unsplash.jpg');
+    background-image: linear-gradient(rgba(56, 55, 55, 0.884),rgba(56, 55, 55, 0.5)),url('./medias/the-nix-company-4Hmj9gkyM6c-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
