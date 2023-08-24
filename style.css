@@ -8,8 +8,8 @@ body, .btn {
     
   } 
    .bg-bg1{
-    height: 600px;
-    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/the-nix-company-4Hmj9gkyM6c-unsplash.jpg');
+    height: 650px;
+    background-image: linear-gradient(rgba(56, 55, 55, 0.884),rgba(56, 55, 55, 0.795)),url('./medias/haryo-setyadi-acn5ERAeSb4-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,15 +18,15 @@ body, .btn {
 
 /*NAV */
 .logo{
-  width: 150px;
+  width: 120px;
 }
 .navbar-scrolled {
     background-color: rgba(0, 0, 0, 0.473);
     transition: background-color 0.3s ease;
   }
   .navbar-nav .active {
-    border-bottom: 1px solid #E8E131;
-    color: #E8E131 !important;
+    border-bottom: 1px solid #E8AE00;
+    color: #E8AE00 !important;
   }
   
   .itemActive .active {
@@ -34,7 +34,7 @@ body, .btn {
     color: white !important;
   }
   ul li a:hover {
-    color: #E8E131 !important;
+    color: #E8AE00 !important;
     transform: scale(0.9);
   }
 
@@ -48,17 +48,17 @@ body, .btn {
   }
   
 /* .btn{
-    color: #E8E131 !important;
-    border: 1px solid #E8E131 !important;
+    color: #E8AE00 !important;
+    border: 1px solid #E8AE00 !important;
     } */
 .btn:hover{
   transform: scale(0.9);
-    background-color: #E8E131 !important;
+    background-color: #E8AE00 !important;
     color: white !important;
     border:  1px solid #fff !important;
     }
 .color1{
-  color: #E8E131 !important;
+  color: #E8AE00 !important;
   font-size: 20px;
 }
 
@@ -136,24 +136,35 @@ body, .btn {
  
   .image-p:hover .border-div {
     opacity: 1; /* Effet bounce-out sur la bordure lors du survol */
-    background: linear-gradient(rgba(219, 224, 155, 0.096),rgba(230, 230, 172, 0.253));
+    background: linear-gradient(rgba(56, 55, 55, 0.452),rgba(56, 55, 55, 0.507));
   }
 
   /* FOOTER */
   #whatsApp {
-    background: #E8E131 !important;
+    background: #E8AE00 !important;
     position: fixed;
     bottom: 20px;
     right: 20px;
   }
   .liensScale:hover{
-    color: #E8E131 !important;
+    color: #E8AE00 !important;
     transform: scale(0.9);
   }
+.mama{
+  font-size: 10px;
+}
+.logof {
+  width: 50% !important; 
+}
+@media (max-width: 572px) {
+  .colfooter {
+    width: 33% !important; 
+  }
+}
 
   /* ABOUT */
   .bg-bg2{
-    height: 600px;
+    height: 650px;
     background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/eduardo-pastor-3oejsU5OQVk-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -179,12 +190,12 @@ body, .btn {
     cursor: pointer;
   }
   .rsbtn:hover{
-    color: #E8E131 !important;
+    color: #E8AE00 !important;
     transform: scale(0.9);
   }
 /* PRODUITS */
 .bg-bg3{
-    height: 600px;
+    height: 650px;
     background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/harry-cunningham-7qCeFo19r24-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -277,7 +288,7 @@ height: 300px;
     display:block;
     width:50%;
     margin:10px auto;
-    border-bottom: 1px solid #222;
+    border-bottom: 2px solid #222;
 }
 .profile-card .profile-content .title > span{
     display:block;
@@ -343,8 +354,8 @@ height: 300px;
   }
 /* CONTACT */
 .bg-bg4{
-    height: 600px;
-    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/haryo-setyadi-acn5ERAeSb4-unsplash.jpg');
+    height: 650px;
+    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./medias/nick-de-partee-5DLBoEX99Cs-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -356,3 +367,14 @@ height: 300px;
       height: 400px;
      }
     }
+
+
+
+
+
+
+
+
+
+
+    
